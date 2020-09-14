@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Message CRUD</title>
+    <!--<link rel="stylesheet" href="css/site.css" />-->
+</head>
+<body>
+    <h1>Messages Display Page</h1>
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><button onclick="displayFirstItemMessage()">Display One Message</button></td>
+            <td>&nbsp;</td>
+            <td><button onclick="displayAllItems()">Display All messages</button></td>
+        </tr>
+        <tr>
+            <td colspan="3"><b>Messages from API</b></td>
+        </tr>
+        <tbody id="messages"></tbody>
+    </table>
+    <script src="js/site.js" asp-append-version="true"></script>
+</body>
+</html>
